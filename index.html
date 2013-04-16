@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			    <section>
+			        <section>
+			            <h1>html5 hacks</h1>
+						<p>
+						<a href="http://twitter.com/html5facil">@html5facil</a> / <a href="http://twitter.com/ninjacodetv">@ninjacodetv</a>
+						</p>
+						<p>#html5facil / #phpdaypuebla</p>
+						</section>
+						            <section>
+						                <h2>¡Hola!</h2>
+						<div>
+						    <br>
+						</div>
+						<blockquote>Soy Luis Antonio Gómez</blockquote>
+						<div>
+						    <br>
+						</div>
+						<div>Fundador y Co-fundador de:</div>
+						<div>
+						    <img src="images/html5-facil.jpg">
+						    <br>
+						    <img src="images/ninjacodetv.jpg">
+						</div>
+						<div>
+						    <br>
+						</div>
+						            </section>
+						            <section>
+						                <h2>Para Cualquier pregunta...</h2>
+						<div>
+						    <br>
+						</div>
+						<div>Solo levante su mano, en Twitter pueden utilizar los hashtag <b>#phpdaypubla #html5facil</b> para dar seguimiento a la conferencia.</div>
+						            </section>
+						        </section>
+						        <section>
+						            <h2>Vayamos a lo importante...</h2>
+						        </section>
+						        <section>
+						            <h2>¿Qué es un hack?</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Es la modificación y adaptación de una tecnología para brindar mayor&nbsp;facilidad&nbsp;de trabajo.</div>
+						        </section>
+						        <section>
+						            <h2>Y en nuestro caso...</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Los hacks nos han ayudado a crear cosas complejas y hacer retrocompatibles las nuevas tecnologías forzadamente.</div>
+						        </section>
+						        <section>
+						            <h2><p>HTML5 y la ayuda de los hacks</p>
+						        </h2>
+						    </section>
+						    <section>
+						        <h2>La magia oscura de la web</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>¿Cómo puede ser posible eso? Wow!</div>
+						        <img src="images/rock.jpg">
+						    </section>
+						    <section>
+						        <h2>Quien crea hacks para la web, es un crack</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Y no bromeo.</div>
+						        <img src="images/ninja.jpg">
+						    </section>
+						    <section>
+						        <h2>¿Imaginas no tener hacks y...</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Estas por desarrollar un nuevo proyecto con websockets, localstorage, canvas, HTML5, CSS3 y sobre todo que sea lo más retrocompatible posible?</div>
+						    </section>
+						    <section>
+						        <h2>Esa es la importancia de los hacks</h2>
+						        <img src="images/raj.jpg">
+						    </section>
+						    <section>
+						        <h2>¿Y por qué tantos hacks?</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Es simple, existen muchas tecnologías privativas y capacidades de las mismas, los hacks van en función de ello.</div>
+						    </section>
+						    <section>
+						        <h2>Siempre hay un crack del código</h2>
+						        <div>
+						           	<img src="images/crack.jpg">
+						        </div>
+						        <div>Hay desarrolladores tan&nbsp;increíbles&nbsp;que han inventado&nbsp;librerías&nbsp;que no te explicas como es que funciona.</div>
+						    </section>
+						    <section>
+						        <h2>¿El objetivo?</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Sólo queremos desarrollar más rápido y mejor.</div>
+						        <img src="images/fast.jpg">
+						    </section>
+						    <section>
+						        <h2>Primeros hacks en aparecer</h2>
+						    </section>
+						    <section>
+						        <h2>Con javascript puro</h2>
+						        <div>
+						            <pre><code>
+&lt;!--[if lt IE 9]&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+	document.createElement("nav");
+	document.createElement("header");
+	document.createElement("footer");
+	document.createElement("section");
+	document.createElement("article");
+	document.createElement("aside");
+	document.createElement("hgroup");
+&lt;/script&gt;
+&lt;![endif]--&gt;
+						            </code></pre>
+						        </div>
+						<div>
+						    
+						</div>
+
+
+						</section>
+						        <section>
+						            <h2>Con CSS Puro</h2>
+						            <div>
+						                <pre>
+						                	<code>
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+} 
+
+						                	</code>
+						                </pre>
+						            </div>
+						        </section>
+						        <section>
+						            <h2>HTML5 Shiv</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Nos permite habilitar las nuevas etiquetas&nbsp;semánticas&nbsp;en navegadores viejos.</div>
+						        </section>
+						        <section>
+						            <h2>CSS3 Pie</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Es un archivo de comportamiento para IE (.htc) que habilita propiedades CSS3.</div>
+						        </section>
+						        <section>
+						            <h2>Diferencias en Javascript y Jquery</h2>
+						        </section>
+						        <section>
+						            <h2>JAvascript puro</h2>
+						            <pre><code>
+document.getElementById("alphanumeric").onkeypress=function(e){  
+    //blah..blah..blah..  
+}
+						            </code></pre>
+						        </section>
+						        <section>
+						            <h2>JQUERY FRamework</h2>
+						            <pre><code>
+$('alphanumeric').click(function(e){
+	//blah..blah..blah..
+});
+						            </code></pre>
+						        </section>
+						        <section>
+						            <h2>Ahora vamos con los hacks super cool</h2>
+						            <img src="images/never.jpg">
+						        </section>
+						        <section>
+						            <h2>Hacks semánticos</h2>
+						        </section>
+						        <section>
+						            <h2>Modernizr</h2>
+									<div>Una libreria que nos permite controlar el uso de las nuevas tecnologías de HTML5 en navegadores viejos.</div>
+									<img src="images/modernizr.jpg">
+						        </section>
+						        <section>
+						            <h2>Hacks para estilos</h2>
+						        </section>
+						        <section>
+						            <h2>-prefix-free</h2>
+						            <div>Liberate de los odiosos prefijos de los motores de renderizado para CSS3.</div>
+						            <div>
+						                <img src="images/prefix-free.jpg">
+						            </div>
+						        </section>
+						        <section>
+						            <h2>Google wEB FONTS</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Una linea de&nbsp;código&nbsp;y la posibilidad de utilizar fuentes personalizadas.</div>
+						            <img src="images/gfonts.jpg">
+						        </section>
+						        <section>
+						            <h2>REsponsive.JS</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Tu sitio web responsive design hasta en navegadores viejos.</div>
+						            <img src="images/responsivejs.jpg">
+						        </section>
+						        <section>
+						            <h2>Normalize.css</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>El mismo estilo por defecto en todos los navegadores.</div>
+						            <img src="images/normalizecss.jpg">
+						        </section>
+						        <section>
+						            <h2>Hacks para multimedia</h2>
+						        </section>
+						        <section>
+						            <h2>MediaElement.js</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Inserta y maneja el contenido multimedia de manera sencilla y con retrocompatibilidad.</div>
+						        </section>
+						        <section>
+						            <h2>cuepoint.js</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Agrega de manera sencilla&nbsp;subtítulos&nbsp;o puntos de señal a tus videos en HTML5.</div>
+						        </section>
+						        <section>
+						            <h2>HAcks para gráficos</h2>
+						            <div>
+						                <br>
+						            </div>
+						        </section>
+						        <section>
+						            <h2>Raphael.js</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Trabaja con vectores y canvas aún más fácil de lo que pensabas.</div>
+						        </section>
+						        <section>
+						            <h2>Kinetic.js</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Un framework que permite animaciones de alto rendimiento, transiciones, capas de anidación de nodos, almacenamiento en caché, filtrado, control de eventos para aplicaciones y mucho más.<br>
+						            	<img src="images/kineticjs.jpg">
+						            </div>
+						        </section>
+						        <section>
+						            <h2>HAcks para interacción con el usuario</h2>
+						        </section>
+						        <section>
+						            <h2>HTML5 Uploader</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Permite utilizar todo el potencial de HTML5 para subir archivos, como el Drag and Drop por ejemplo.</div>
+						        </section>
+						        <section>
+						            <h2>Turn.JS</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Crea el efecto flip de un libro rápidamente con el potencial de HTML5.</div>
+						            <img src="images/turnjs.jpg">
+						        </section>
+						        <section>
+						            <h2>WYSIHTML5</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>Un editor de texto enriquecido de código abierto basado en HTML5.<br>
+						            </div>
+						        </section>
+						        <section>
+						            <h2>Storage.js</h2>
+						            <div>
+						                <br>
+						            </div>
+						            <div>
+						                <div>&nbsp;Utiliza local storage en cualquier navegador.</div>
+						                <div>Usa userData para IE 6&nbsp;<span style="letter-spacing: -0.02em;">y 7, globalStorage para las versiones de Firefox 2 y 3.</span>
+						            </div>
+						        </div>
+						    </section>
+						    <section>
+						        <h2>skrollr</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Es una libreria para utilizar el efecto Parallax junto con el evento scroll del navegador.</div>
+						    </section>
+						    <section>
+						        <h2>Hacks para Geolocalización</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>
+						            <br>
+						        </div>
+						    </section>
+						    <section>
+						        <h2>Geoloqi</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Envia una notificación al usuario cuando salga de un radio específico en un lugar.</div>
+						        <img src="images/geoloqi.jpg">
+						    </section>
+						    <section>
+						        <h2>Parallel.js</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Saca el máximo provecho de los WebWorkers en Javascript.<br>
+						        </div>
+						    </section>
+						    <section>
+						        <h2>Hacks de conectividad</h2>
+						    </section>
+						    <section>
+						        <h2>socket.io</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Hace posible la web en tiempo real y retrocompatible utilizando websockets y más.</div>
+						        <img src="images/socketio.jpg">
+						    </section>
+						    <section>
+						        <h2>HTML5 En diferentes plataformas y fuera de la web.</h2>
+						    </section>
+						    <section>
+						        <h2>Phonegap</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Si eres desarrollador web, entonces también puedes crear aplicaciones móviles casi nativas.</div>
+						        <img src="images/phonegap.jpg">
+						    </section>
+						    <section>
+						        <h2>Aplicaciones nativas en Windows 8</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Ahora Microsoft actualiza Visual Studio para los desarrolladores web.</div>
+						        <img src="images/windows-8.jpg">
+						    </section>
+						    <section>
+						        <h2>Firefox OS</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Ahora las aplicaciones móviles son desarrolladas 100% en HTML5.</div>
+						        <img src="images/firefoxos.jpg">
+						    </section>
+						    <section>
+						        <h2>Pero escribir mucho código es cansado</h2>
+						        <img src="images/cansado.jpg">
+						    </section>
+						    <section>
+						        <h2>¿Y si lo escribieras más rapido o mucho menos?</h2>
+						    </section>
+						    <section>
+						        <h2>Precompiladores y metalenguajes</h2>
+						    </section>
+						    <section>
+						        <h2>Emmet</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Un plugin para muchos editores de texto desarrollado y optimizado para desarrolladores web con el fin de que escriban código más rapido.<br>
+						        	<img src="images/emmet.jpg">
+						        </div>
+						    </section>
+						    <section>
+						        <h2>Sass</h2>
+						        <div>Es un metalenguaje para escribir CSS que se utiliza para describir el estilo de un documento de manera limpia y estructural<br>
+						        </div>
+						        <img src="images/sass.jpg">
+						    </section>
+						    <section>
+						        <h2>Less</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Un metalenguaje donde el CSS ahora es mucho más dinámico.</div>
+						        <img src="images/less.jpg">
+						    </section>
+						    <section>
+						        <h2>Stylus</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>Otro metalenguaje para CSS expresivo, dinámico y robusto.</div>
+						    </section>
+						    <section>
+						        <h2>Coffescript</h2>
+						        <div>
+						            <br>
+						        </div>
+						        <div>CoffeeScript es un metalenguaje que se compila a JavaScript, permite escribir código más limpio y estructurado.<br>
+						        </div>
+						        <img src="images/coffescript.jpg">
+						    </section>
+						    <section>
+						        <h2>¿Preguntas?</h2>
+						        <img src="images/preguntas.jpg">
+						    </section>
+						    <section>
+						        <h2>¡Gracias por su atención!</h2>
+						<div>
+						    <br>
+						</div>
+						<div>Luis Antonio Gómez:</div>
+						<div>
+						    <br>
+						</div>
+						<div>
+						    <ul>
+						        <li>@jimmylagp</li>
+						        <li>facebook.com/jimmylagp</li>
+						        <li>contacto@html5facil.com</li>
+						    </ul>
+						    <div style="text-align: left;">
+						        <br>
+						    </div>
+						</div>
+						<div style="text-align: left;">
+						    <br>
+						</div>
+						<div style="text-align: center;">
+						    <ul>
+						        <li>
+						            <a href="http://html5facil.com" style="text-align: center;letter-spacing: -0.02em;">http://html5facil.com</a>
+						            <br>
+						        </li>
+						        <li>
+						            <a href="http://html5facil.com" style="text-align: center;letter-spacing: -0.02em;">http://ninjacode.tv</a>
+						            <br>
+						        </li>
+						    </ul>
+						</div>
+					</section>
+    		</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+		<!-- controldeck.js -->
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/controldeck-slides.js"></script>
+	</body>
+</html>
